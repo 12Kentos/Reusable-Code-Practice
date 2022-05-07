@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f2f2f2;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-left-helper {
+  margin-left: 4.8rem;
+}
+
+.card-container {
+  width: 30.7rem;
+  height: 50rem;
+  border-radius: 0.8rem;
+}
+
+.card-container-sedan {
+  background-color: #e28625;
+}
+
+.card-img-container {
+  margin-top: 4.8rem;
+}
+
+.card-title {
+  color: #f2f2f2;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.78rem;
+  font-family: Big Shoulders Display;
+  text-transform: uppercase;
+  margin-top: 3.5rem;
+}
+
+.card-information {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  font-family: Lexend Deca;
+  margin-top: 2.5rem;
+  width: 21.2rem;
+}
+
+.card-button {
+  width: 14.6rem;
+  height: 4.8rem;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 2.5rem;
+  margin-top: 8.3rem;
+}
+
+.sedan-button {
+  color: #e28625;
+}
+
+.card-container-suv {
+  background-color: #006971;
+}
+
+.suv-button {
+  color: #006971;
+}
+
+.card-container-luxury {
+  background-color: #004140;
+}
+
+.luxury-button {
+  color: #004140;
+}
+
+.card-button:hover {
+  border: solid 1px #fff;
+  color: #fff;
+  background-color: #00414000;
+  cursor: pointer;
+}
+
+@media (max-width: 40rem) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+} ;
